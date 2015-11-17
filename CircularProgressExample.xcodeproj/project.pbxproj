@@ -14,6 +14,7 @@
 		E21CC2A31BFBCD07006EFCE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21CC2A11BFBCD07006EFCE5 /* LaunchScreen.storyboard */; };
 		E21CC2AE1BFBCD07006EFCE5 /* CircularProgressExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CC2AD1BFBCD07006EFCE5 /* CircularProgressExampleTests.swift */; };
 		E21CC2B91BFBCD07006EFCE5 /* CircularProgressExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CC2B81BFBCD07006EFCE5 /* CircularProgressExampleUITests.swift */; };
+		E21CC2C71BFBCD53006EFCE5 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CC2C61BFBCD53006EFCE5 /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E21CC2B41BFBCD07006EFCE5 /* CircularProgressExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21CC2B81BFBCD07006EFCE5 /* CircularProgressExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressExampleUITests.swift; sourceTree = "<group>"; };
 		E21CC2BA1BFBCD07006EFCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21CC2C61BFBCD53006EFCE5 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = CircularProgressView/CircularProgressView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E21CC29F1BFBCD07006EFCE5 /* Assets.xcassets */,
 				E21CC2A11BFBCD07006EFCE5 /* LaunchScreen.storyboard */,
 				E21CC2A41BFBCD07006EFCE5 /* Info.plist */,
+				E21CC2C61BFBCD53006EFCE5 /* CircularProgressView.swift */,
 			);
 			path = CircularProgressExample;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21CC29B1BFBCD07006EFCE5 /* ViewController.swift in Sources */,
+				E21CC2C71BFBCD53006EFCE5 /* CircularProgressView.swift in Sources */,
 				E21CC2991BFBCD07006EFCE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
