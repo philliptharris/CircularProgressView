@@ -25,9 +25,6 @@
                                     <constraint firstAttribute="height" constant="44" id="kzv-5V-eTh"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="trackWidth">
-                                        <real key="value" value="6"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progress">
                                         <real key="value" value="0.67000000000000004"/>
                                     </userDefinedRuntimeAttribute>

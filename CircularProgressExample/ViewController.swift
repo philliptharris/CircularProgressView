@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        progressView.progress = 0.75
+        progressView.progress = 0.67
     }
 }
-

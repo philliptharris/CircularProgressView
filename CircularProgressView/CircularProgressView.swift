@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 class CircularProgressView: UIView {
     
-    @IBInspectable var trackWidth: CGFloat = 8.0
+    @IBInspectable var trackWidth: CGFloat = 6.0
     @IBInspectable var trackTint: UIColor? = UIColor(white: 0.9, alpha: 1.0)
     @IBInspectable var progressTint: UIColor? = UIColor(red: 0.0/255.0, green: 122.0/255.0, blue: 255.0/255.0, alpha: 1.0) {
         didSet {
@@ -77,8 +77,8 @@ class CircularProgressView: UIView {
         let subview = label
         subview.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(subview)
-        self.addConstraint(NSLayoutConstraint(item: subview, attribute: .Left, relatedBy: .Equal, toItem: self, attribute: .Left, multiplier: 1.0, constant: trackWidth))
-        self.addConstraint(NSLayoutConstraint(item: self, attribute: .Right, relatedBy: .Equal, toItem: subview, attribute: .Right, multiplier: 1.0, constant: trackWidth))
+        self.addConstraint(NSLayoutConstraint(item: subview, attribute: .Left, relatedBy: .Equal, toItem: self, attribute: .Left, multiplier: 1.0, constant: 0.0))
+        self.addConstraint(NSLayoutConstraint(item: self, attribute: .Right, relatedBy: .Equal, toItem: subview, attribute: .Right, multiplier: 1.0, constant: 0.0))
         self.addConstraint(NSLayoutConstraint(item: subview, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1.0, constant: 0.0))
         self.addConstraint(NSLayoutConstraint(item: self, attribute: .Bottom, relatedBy: .Equal, toItem: subview, attribute: .Bottom, multiplier: 1.0, constant: 0.0))
     }
